@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <link rel="icon" type="image/x-icon" href="../../Python_logo.ico">
+        <title>surface</title> 
+        <link type="text/css" rel="stylesheet" href="../../css/main.css" media="all" />
+        <style> 
+            img { 
+            float: left; 
+            margin-right: 2em; 
+            } 
+            h1 {
+            margin-bottom: 50px;
+            }
+        </style>
+    </head>
+    <body bgcolor="#effafd">
+        <h1><a href="../../index.html">return</a></h1>
+        <h1 style="font-size: 40px"><strong>surface("file.png"; center; invert)</strong></h1>
+        <p><img src="../2D_to_3D/pic_2D_to_3D/surface/Surface.jpg" width="260" height="260" title="Surface">Converts image file to figure. Currently only PNG images are supported. the height for the pixel is determined by converting the color value to Grayscale using the linear luminance for the sRGB color space (Y = 0.2126R + 0.7152G + 0.0722B). The gray scale values are scaled to be in the range 0 to 100.</p>
+        <p line-height: 20px;><strong>surface(file = "file.png", center = True/False, invert = True/False)</strong></p><br />
+        <p style="font-size: 30px">examples:</p>
+        <figure>
+            <img src="../2D_to_3D/pic_2D_to_3D/surface/surface_pic.png" width="140" height="140" title="surface_pic.png">
+            <p><strong>surface_pic.png</strong></p>
+        </figure>
+        <figure>
+            <img src="../2D_to_3D/pic_2D_to_3D/surface/Surface_1.jpg" width="140" height="140" title="surface(file = 'surface_pic.png', invert = False, center = True)">
+            <p><strong>surface(file = 'surface_pic.png', invert = False, center = True)</strong></p>
+        </figure>
+        <figure>
+            <img src="../2D_to_3D/pic_2D_to_3D/surface/Surface_2.jpg" width="140" height="140" title="surface(file = 'surface_pic.png', invert = True, center = False)">
+            <p><strong>surface(file = 'surface_pic.png', invert = True, center = False)</strong></p>
+        </figure>
+    </body>
+</html>

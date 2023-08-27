@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <link rel="icon" type="image/x-icon" href="../../Python_logo.ico">
+        <title>linear_extrude</title> 
+        <link type="text/css" rel="stylesheet" href="../../css/main.css" media="all" />
+        <style> 
+            img { 
+            float: left; 
+            margin-right: 2em; 
+            } 
+            h1 {
+            margin-bottom: 50px;
+            }
+        </style>
+    </head>
+    <body bgcolor="#effafd">
+        <h1><a href="../../index.html">return</a></h1>
+        <h1 style="font-size: 40px"><strong>linear_extrude(heigh; center; slices; twist) (2D_figure)</strong></h1>
+        <p><img src="../2D_to_3D/pic_2D_to_3D/linear_extrude/Linear_extrude.jpg" width="260" height="260" title="Linear_extrude">Linear Extrusion is an operation that takes a 2D object as input and generates a 3D object as a result. Twist is the number of degrees the shape is extruded. Setting the parameter twist = 360 extrudes one turn. The direction of rotation is clockwise.  If center is false the linear extrusion Z range is from 0 to height; if it is true, the range is from -height/2 to height/2. Scales the 2D shape by this value over the height of the extrusion. Slices like segments.</p>
+        <p line-height: 20px;><strong>linear_extrude(heigh, center, slices, twist) (2D_figure)</strong></p><br />
+        <p style="font-size: 30px">examples:</p>
+        <figure>
+            <img src="../2D_to_3D/pic_2D_to_3D/linear_extrude/Linear_extrude_1.jpg" width="140" height="140" title="linear_extrude(height=50, center=False, slices=50, twist=500) (square(size = 10))">
+            <p><strong>linear_extrude(height=50, center=False, slices=50, twist=500) (square(size = 10))</strong></p>
+        </figure>
+        <figure>
+            <img src="../2D_to_3D/pic_2D_to_3D/linear_extrude/Linear_extrude_2.jpg" width="140" height="140" title="linear_extrude(height=50, center=False, slices=50, twist=50) (square(size = 10))">
+            <p><strong>linear_extrude(height=50, center=False, slices=50, twist=50) (square(size = 10))</strong></p>
+        </figure>
+        <figure>
+            <img src="../2D_to_3D/pic_2D_to_3D/linear_extrude/Linear_extrude_3.jpg" width="140" height="140" title="linear_extrude(height=50, center=False, slices=50, twist=50) (circle(d = 10))">
+            <p><strong>linear_extrude(height=50, center=False, slices=50, twist=50) (circle(d = 10))</strong></p>
+        </figure>
+        <figure>
+            <img src="../2D_to_3D/pic_2D_to_3D/linear_extrude/Linear_extrude_4.jpg" width="140" height="140" title="linear_extrude(height=50, center=False, slices=50, twist=0) (circle(d = 10, segments = 3))">
+            <p><strong>linear_extrude(height=50, center=False, slices=50, twist=0) (circle(d = 10, segments = 3))</strong></p>
+        </figure>
+        <figure>
+            <img src="../2D_to_3D/pic_2D_to_3D/linear_extrude/Linear_extrude_5.jpg" width="140" height="140" title="linear_extrude(height=50, center=False, scale = [5, 5], slices=50, twist=50) (square(size = 10))">
+            <p><strong>linear_extrude(height=50, center=False, scale = [5, 5], slices=50, twist=50) (square(size = 10))</strong></p>
+        </figure>
+    </body>
+</html>

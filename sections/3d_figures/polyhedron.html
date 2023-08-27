@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <link rel="icon" type="image/x-icon" href="../../Python_logo.ico">
+        <title>polyhedron</title> 
+        <link type="text/css" rel="stylesheet" href="../../css/main.css" media="all" />
+        <style> 
+            img { 
+            float: left; 
+            margin-right: 2em; 
+            } 
+            h1 {
+            margin-bottom: 50px;
+            }
+        </style>
+    </head>
+    <body bgcolor="#effafd">
+        <h1><a href="../../index.html">return</a></h1>
+        <h1 style="font-size: 40px"><strong>polyhedron([[points]], [[faces]])</strong></h1>
+        <p><img src="../3D_Figures/pic_3D/Polyhedron/Polyhedron.jpg" width="260" height="260" title="Polyhedron">Polyhedron is the most general 3D primitive solid. It can be used to create any regular or irregular shape. It is arbitrary which point you start with, but all faces must have points ordered in clockwise direction when looking at each face from outside inward.</p>
+        <p line-height: 20px;><strong>polyhedron(points = [[x1 y1 z1], [x2, y2, z2], ...], faces = [[p1, p2, p3, ...], ...])</strong></p><br />
+        <div class="header">
+            <table>
+                <tr>
+                    <td>
+                        <img src="pic_3D/Polyhedron/Polyhedron_example_1.jpg" style="vertical-align: middle" width="240" height="240" title="Point numbers for pyramid">
+                    </td>
+                    <td>
+                        <p align="left">points = [<br />[0, 0, 0],<font color="#9fb1b6"> - 0</font><br />[0, 10, 0],<font color="#9fb1b6"> - 1</font><br />[10, 10, 0],<font color="#9fb1b6"> - 2</font><br />[10, 0, 0],<font color="#9fb1b6"> - 3</font><br />[5, 5, 10]]<font color="#9fb1b6"> - 4</font></p>
+                    </td>
+                    <td>
+                        <p align="center">|<br />|<br />|<br />|<br />|<br />|</p>
+                    </td>
+                    <td>
+                        <p align="right">faces = [<br />[0, 1, 2, 3],<br />[0, 1, 4],<br />[1, 2, 4],<br />[2, 3, 4],<br />[0, 3, 4]]</p>
+                    </td>
+                    <td>
+                        <img style="padding: 2em;" src="pic_3D/Polyhedron/Polyhedron_example_2.jpg" style="vertical-align: middle" width="240" height="240" title="unfolded pyramid faces">
+                    </td>
+                <tr>
+            </table>
+        </div>
+        <p style="font-size: 30px">examples:</p>
+        <figure>
+            <img src="../3D_Figures/pic_3D/Polyhedron/Polyhedron_1.jpg" width="140" height="140" title="polyhedron(points = [[0, 0, 0], [-2, -2, 3], [-2, 2, 3], [2, 2, 3], [2, -2, 3], [-2, -2, 8], [-2, 2, 8], [2, 2, 8], [2, -2, 8], [0, 0, 11]], faces = [[0, 1, 2], [0, 2, 3], [0, 3, 4], [0, 4, 1], [1, 5, 6, 2], [2, 6, 7, 3], [3, 7, 8, 4], [4, 8, 5, 1], [5, 6, 9], [6, 7, 9], [7, 8, 9], [8, 5, 9]])">
+            <p><strong>polyhedron(points = [[0, 0, 0], [-2, -2, 3], [-2, 2, 3], [2, 2, 3], [2, -2, 3], [-2, -2, 8], [-2, 2, 8], [2, 2, 8], [2, -2, 8], [0, 0, 11]], faces = [[0, 1, 2], [0, 2, 3], [0, 3, 4], [0, 4, 1], [1, 5, 6, 2], [2, 6, 7, 3], [3, 7, 8, 4], [4, 8, 5, 1], [5, 6, 9], [6, 7, 9], [7, 8, 9], [8, 5, 9]])</strong></p>
+        </figure>
+        <figure>
+            <img src="../3D_Figures/pic_3D/Polyhedron/Polyhedron_2.jpg" width="140" height="140" title="polyhedron(points = [[0, 0, 0], [0, 10, 0], [10, 10, 0], [10, 0, 0], [5, 5, 10]], faces = [[0, 1, 2, 3], [0, 1, 4], [1, 2, 4], [2, 3, 4], [0, 3, 4]])">
+            <p><strong>polyhedron(points = [[0, 0, 0], [0, 10, 0], [10, 10, 0], [10, 0, 0], [5, 5, 10]], faces = [[0, 1, 2, 3], [0, 1, 4], [1, 2, 4], [2, 3, 4], [0, 3, 4]])</strong></p>
+        </figure>
+        <figure>
+            <img src="../3D_Figures/pic_3D/Polyhedron/Polyhedron_3.jpg" width="140" height="140" title="polyhedron(points = [[0, 0, 0], [5, 0, 0], [0, 10, 0], [5, 10, 0], [0, 10, 10], [5, 10, 10]], faces = [[0, 2, 3, 1], [0, 4, 2], [3, 5, 1], [4, 0, 1, 5], [2, 4, 5, 3]])">
+            <p><strong>polyhedron(points = [[0, 0, 0], [5, 0, 0], [0, 10, 0], [5, 10, 0], [0, 10, 10], [5, 10, 10]], faces = [[0, 2, 3, 1], [0, 4, 2], [3, 5, 1], [4, 0, 1, 5], [2, 4, 5, 3]])</strong></p>
+        </figure>
+    </body>
+</html>

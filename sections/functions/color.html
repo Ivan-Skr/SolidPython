@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <link rel="icon" type="image/x-icon" href="../../Python_logo.ico">
+        <title>color</title> 
+        <link type="text/css" rel="stylesheet" href="../../css/main.css" media="all" />
+        <script>
+            window.oninput = function oninputColor() {
+            var idColor = document.getElementById('idColor').value;
+            document.getElementById('rezultatColor').innerHTML = idColor;
+            }
+        </script>
+        <style> 
+            img { 
+            float: left; 
+            margin-right: 2em; 
+            } 
+            h1 {
+            margin-bottom: 50px;
+            }
+        </style>
+    </head>
+    <body bgcolor="#effafd">
+        <h1><a href="../../index.html">return</a></h1>
+        <h1 style="font-size: 40px"><strong>color("color"; alpha) (figure)</strong></h1>
+        <p><img src="../Functions/pic_Functions/Color/Color.jpg" width="260" height="260" title="Color">Displays the child elements using the specified RGB color + alpha value. This is only used for the F5 preview as CGAL and STL (F6) do not currently support color. The default alpha value is 1.0 (opaque) unless otherwise specified (between 0 and 1).</p>
+        <p line-height: 20px;><strong>color(c = "color", alpha = x) (figure)</strong></p><br />
+        <dl>
+            <input type="color" name="idColor" id="idColor" value="#cc0000">
+            <a>  Your color: </a><font color="#000000"><output id="rezultatColor"></output></font>
+        </dl>
+
+        <table style="font-size:90%;border-style:solid;border-color:black;border-width:1px;" cellpadding="4" width="100%">
+
+            <tbody><tr valign="top">
+            <td width="20%">
+            <table width="100%">
+
+            <tbody><tr>
+            <td style="background:whitesmoke;color:slategray;text-align:center"><big><b>Purples</b></big>
+            </td></tr>
+            <tr style="background:lavender;color:black">
+            <td>Lavender
+            </td></tr>
+            <tr style="background:thistle;color:black">
+            <td>Thistle
+            </td></tr>
+            <tr style="background:plum;color:black">
+            <td>Plum
+            </td></tr>
+            <tr style="background:violet;color:black">
+            <td>Violet
+            </td></tr>
+            <tr style="background:orchid;color:black">
+            <td>Orchid
+            </td></tr>
+            <tr style="background:fuchsia;color:white">
+            <td>Fuchsia
+            </td></tr>
+            <tr style="background:Magenta;color:white">
+            <td>Magenta
+            </td></tr>
+            <tr style="background:mediumorchid;color:white">
+            <td>MediumOrchid
+            </td></tr>
+            <tr style="background:mediumpurple;color:white">
+            <td>MediumPurple
+            </td></tr>
+            <tr style="background:#9966CC;color:white">
+            <td>BlueViolet
+            </td></tr>
+            <tr style="background:darkviolet;color:white">
+            <td>DarkViolet
+            </td></tr>
+            <tr style="background:darkorchid;color:white">
+            <td>DarkOrchid
+            </td></tr>
+            <tr style="background:darkmagenta;color:white">
+            <td>DarkMagenta
+            </td></tr>
+            <tr style="background:purple;color:white">
+            <td>Purple
+            </td></tr>
+            <tr style="background:indigo;color:white">
+            <td>Indigo
+            </td></tr>
+            <tr style="background:darkslateblue;color:white">
+            <td>DarkSlateBlue
+            </td></tr>
+            <tr style="background:slateblue;color:white">
+            <td>SlateBlue
+            </td></tr>
+            <tr style="background:mediumslateblue;color:white">
+            <td>MediumSlateBlue
+            </td></tr>
+            <tr>
+            <td style="background:whitesmoke;color:slategray;text-align:center"><big><b>Pinks</b></big>
+            </td></tr>
+            <tr style="background:pink;color:black">
+            <td>Pink
+            </td></tr>
+            <tr style="background:lightpink;color:black">
+            <td>LightPink
+            </td></tr>
+            <tr style="background:hotpink;color:white">
+            <td>HotPink
+            </td></tr>
+            <tr style="background:deeppink;color:white">
+            <td>DeepPink
+            </td></tr>
+            <tr style="background:mediumvioletred;color:white">
+            <td>MediumVioletRed
+            </td></tr>
+            <tr style="background:palevioletred;color:white">
+            <td>PaleVioletRed
+            </td></tr></tbody></table>
+            </td>
+            <td width="20%">
+            <table width="100%">
+            
+            
+            <tbody><tr>
+            <td style="background:whitesmoke;color:slategray;text-align:center"><big><b>Blues</b></big>
+            </td></tr>
+            <tr style="background:aqua;color:black">
+            <td>Aqua
+            </td></tr>
+            <tr style="background:cyan;color:black">
+            <td>Cyan
+            </td></tr>
+            <tr style="background:lightcyan;color:black">
+            <td>LightCyan
+            </td></tr>
+            <tr style="background:paleturquoise;color:black">
+            <td>PaleTurquoise
+            </td></tr>
+            <tr style="background:aquamarine;color:black">
+            <td>Aquamarine
+            </td></tr>
+            <tr style="background:turquoise;color:black">
+            <td>Turquoise
+            </td></tr>
+            <tr style="background:mediumturquoise;color:black">
+            <td>MediumTurquoise
+            </td></tr>
+            <tr style="background:darkturquoise;color:white">
+            <td>DarkTurquoise
+            </td></tr>
+            <tr style="background:cadetblue;color:white">
+            <td>CadetBlue
+            </td></tr>
+            <tr style="background:steelblue;color:white">
+            <td>SteelBlue
+            </td></tr>
+            <tr style="background:lightsteelblue;color:black">
+            <td>LightSteelBlue
+            </td></tr>
+            <tr style="background:powderblue;color:black">
+            <td>PowderBlue
+            </td></tr>
+            <tr style="background:lightblue;color:black">
+            <td>LightBlue
+            </td></tr>
+            <tr style="background:skyblue;color:black">
+            <td>SkyBlue
+            </td></tr>
+            <tr style="background:lightskyblue;color:black">
+            <td>LightSkyBlue
+            </td></tr>
+            <tr style="background:deepskyblue;color:white">
+            <td>DeepSkyBlue
+            </td></tr>
+            <tr style="background:dodgerblue;color:white">
+            <td>DodgerBlue
+            </td></tr>
+            <tr style="background:cornflowerblue;color:white">
+            <td>CornflowerBlue
+            </td></tr>
+            <tr style="background:royalblue;color:white">
+            <td>RoyalBlue
+            </td></tr>
+            <tr style="background:blue;color:white">
+            <td>Blue
+            </td></tr>
+            <tr style="background:mediumblue;color:white">
+            <td>MediumBlue
+            </td></tr>
+            <tr style="background:darkblue;color:white">
+            <td>DarkBlue
+            </td></tr>
+            <tr style="background:navy;color:white">
+            <td>Navy
+            </td></tr>
+            <tr style="background:midnightblue;color:white">
+            <td>MidnightBlue
+            </td></tr>
+            <tr>
+            <td style="background:whitesmoke;color:slategray;text-align:center;"><big><b>Reds</b></big>
+            </td></tr>
+            <tr style="background:indianred;color:white">
+            <td>IndianRed
+            </td></tr>
+            <tr style="background:lightcoral;color:black">
+            <td>LightCoral
+            </td></tr>
+            <tr style="background:salmon;color:black">
+            <td>Salmon
+            </td></tr>
+            <tr style="background:darksalmon;color:black">
+            <td>DarkSalmon
+            </td></tr>
+            <tr style="background:lightsalmon;color:black">
+            <td>LightSalmon
+            </td></tr>
+            <tr style="background:red;color:white">
+            <td>Red
+            </td></tr>
+            <tr style="background:crimson;color:white;color:white">
+            <td>Crimson
+            </td></tr>
+            <tr style="background:fireBrick;color:white">
+            <td>FireBrick
+            </td></tr>
+            <tr style="background:darkred;color:white">
+            <td>DarkRed
+            </td></tr></tbody></table>
+            </td>
+            <td width="20%">
+            <table width="100%">
+            
+            
+            <tbody><tr>
+            <td style="background:whitesmoke;color:slategray;text-align:center"><big><b>Greens</b></big>
+            </td></tr>
+            <tr style="background:greenyellow;color:black">
+            <td>GreenYellow
+            </td></tr>
+            <tr style="background:chartreuse;color:black">
+            <td>Chartreuse
+            </td></tr>
+            <tr style="background:lawngreen;color:black">
+            <td>LawnGreen
+            </td></tr>
+            <tr style="background:lime;color:black">
+            <td>Lime
+            </td></tr>
+            <tr style="background:limegreen;color:black">
+            <td>LimeGreen
+            </td></tr>
+            <tr style="background:palegreen;color:black">
+            <td>PaleGreen
+            </td></tr>
+            <tr style="background:lightgreen;color:black">
+            <td>LightGreen
+            </td></tr>
+            <tr style="background:mediumspringgreen;color:black">
+            <td>MediumSpringGreen
+            </td></tr>
+            <tr style="background:springgreen;color:black">
+            <td>SpringGreen
+            </td></tr>
+            <tr style="background:mediumseagreen;color:white">
+            <td>MediumSeaGreen
+            </td></tr>
+            <tr style="background:seagreen;color:white">
+            <td>SeaGreen
+            </td></tr>
+            <tr style="background:forestgreen;color:white">
+            <td>ForestGreen
+            </td></tr>
+            <tr style="background:green;color:white">
+            <td>Green
+            </td></tr>
+            <tr style="background:darkgreen;color:white">
+            <td>DarkGreen
+            </td></tr>
+            <tr style="background:yellowgreen;color:black">
+            <td>YellowGreen
+            </td></tr>
+            <tr style="background:olivedrab;color:white">
+            <td>OliveDrab
+            </td></tr>
+            <tr style="background:olive;color:white">
+            <td>Olive
+            </td></tr>
+            <tr style="background:darkolivegreen;color:white">
+            <td>DarkOliveGreen
+            </td></tr>
+            <tr style="background:mediumaquamarine;color:black">
+            <td>MediumAquamarine
+            </td></tr>
+            <tr style="background:darkseagreen;color:black">
+            <td>DarkSeaGreen
+            </td></tr>
+            <tr style="background:lightseagreen;color:white">
+            <td>LightSeaGreen
+            </td></tr>
+            <tr style="background:darkcyan;color:white">
+            <td>DarkCyan
+            </td></tr>
+            <tr style="background:teal;color:white">
+            <td>Teal
+            </td></tr>
+            <tr>
+            <td style="background:whitesmoke;color:slategray;text-align:center"><big><b>Oranges</b></big>
+            </td></tr>
+            <tr style="background:lightsalmon;color:black">
+            <td>LightSalmon
+            </td></tr>
+            <tr style="background:coral;color:white">
+            <td>Coral
+            </td></tr>
+            <tr style="background:tomato;color:white">
+            <td>Tomato
+            </td></tr>
+            <tr style="background:orangered;color:white">
+            <td>OrangeRed
+            </td></tr>
+            <tr style="background:darkorange;color:white">
+            <td>DarkOrange
+            </td></tr>
+            <tr style="background:orange;color:white">
+            <td>Orange
+            </td></tr></tbody></table>
+            </td>
+            <td width="20%">
+            <table width="100%">
+            
+            
+            <tbody><tr>
+            <td style="background:whitesmoke;color:slategray;text-align:center"><big><b>Yellows</b></big>
+            </td></tr>
+            <tr style="background:gold;color:black">
+            <td>Gold
+            </td></tr>
+            <tr style="background:yellow;color:black">
+            <td>Yellow
+            </td></tr>
+            <tr style="background:lightyellow;color:black">
+            <td>LightYellow
+            </td></tr>
+            <tr style="background:lemonchiffon;color:black">
+            <td>LemonChiffon
+            </td></tr>
+            <tr style="background:lightgoldenrodyellow;color:black">
+            <td>LightGoldenrodYellow
+            </td></tr>
+            <tr style="background:papayawhip;color:black">
+            <td>PapayaWhip
+            </td></tr>
+            <tr style="background:moccasin;color:black">
+            <td>Moccasin
+            </td></tr>
+            <tr style="background:peachpuff;color:black">
+            <td>PeachPuff
+            </td></tr>
+            <tr style="background:palegoldenrod;color:black">
+            <td>PaleGoldenrod
+            </td></tr>
+            <tr style="background:khaki;color:black">
+            <td>Khaki
+            </td></tr>
+            <tr style="background:darkkhaki;color:black">
+            <td>DarkKhaki
+            </td></tr>
+            <tr>
+            <td style="background:whitesmoke;color:slategray;text-align:center"><big><b>Browns</b></big>
+            </td></tr>
+            <tr style="background:cornsilk;color:black">
+            <td>Cornsilk
+            </td></tr>
+            <tr style="background:blanchedalmond;color:black">
+            <td>BlanchedAlmond
+            </td></tr>
+            <tr style="background:bisque;color:black">
+            <td>Bisque
+            </td></tr>
+            <tr style="background:navajowhite;color:black">
+            <td>NavajoWhite
+            </td></tr>
+            <tr style="background:wheat;color:black">
+            <td>Wheat
+            </td></tr>
+            <tr style="background:burlywood;color:black">
+            <td>BurlyWood
+            </td></tr>
+            <tr style="background:tan;color:black">
+            <td>Tan
+            </td></tr>
+            <tr style="background:rosybrown;color:black">
+            <td>RosyBrown
+            </td></tr>
+            <tr style="background:sandybrown;color:black">
+            <td>SandyBrown
+            </td></tr>
+            <tr style="background:goldenrod;color:black">
+            <td>Goldenrod
+            </td></tr>
+            <tr style="background:darkgoldenrod;color:white">
+            <td>DarkGoldenrod
+            </td></tr>
+            <tr style="background:Peru;color:white">
+            <td>Peru
+            </td></tr>
+            <tr style="background:chocolate;color:white">
+            <td>Chocolate
+            </td></tr>
+            <tr style="background:saddlebrown;color:white">
+            <td>SaddleBrown
+            </td></tr>
+            <tr style="background:sienna;color:white">
+            <td>Sienna
+            </td></tr>
+            <tr style="background:brown;color:white">
+            <td>Brown
+            </td></tr>
+            <tr style="background:maroon;color:white">
+            <td>Maroon
+            </td></tr>
+            
+            
+            </tbody></table>
+            </td>
+            <td width="20%">
+            <table width="100%">
+            
+            
+            <tbody><tr style="background:whitesmoke;color:slategray;text-align:center">
+            <td><big><b>Whites</b></big>
+            </td></tr>
+            <tr style="background:white;">
+            <td>White
+            </td></tr>
+            <tr style="background:snow;">
+            <td>Snow
+            </td></tr>
+            <tr style="background:honeydew;">
+            <td>Honeydew
+            </td></tr>
+            <tr style="background:mintcream;">
+            <td>MintCream
+            </td></tr>
+            <tr style="background:azure;">
+            <td>Azure
+            </td></tr>
+            <tr style="background:aliceblue;">
+            <td>AliceBlue
+            </td></tr>
+            <tr style="background:ghostwhite;">
+            <td>GhostWhite
+            </td></tr>
+            <tr style="background:whitesmoke;">
+            <td>WhiteSmoke
+            </td></tr>
+            <tr style="background:seashell;">
+            <td>Seashell
+            </td></tr>
+            <tr style="background:beige;">
+            <td>Beige
+            </td></tr>
+            <tr style="background:oldlace;">
+            <td>OldLace
+            </td></tr>
+            <tr style="background:floralwhite;">
+            <td>FloralWhite
+            </td></tr>
+            <tr style="background:ivory;">
+            <td>Ivory
+            </td></tr>
+            <tr style="background:antiquewhite;">
+            <td>AntiqueWhite
+            </td></tr>
+            <tr style="background:linen;">
+            <td>Linen
+            </td></tr>
+            <tr style="background:lavenderblush;">
+            <td>LavenderBlush
+            </td></tr>
+            <tr style="background:mistyrose;">
+            <td>MistyRose
+            </td></tr>
+            <tr>
+            <td colspan="3" style="background:whitesmoke;color:slategray;text-align:center"><big><b>Grays</b></big>
+            </td></tr>
+            <tr style="background:gainsboro;color:black">
+            <td>Gainsboro
+            </td></tr>
+            <tr style="background:lightgrey;color:black">
+            <td>LightGrey
+            </td></tr>
+            <tr style="background:silver;color:black">
+            <td>Silver
+            </td></tr>
+            <tr style="background:darkgray;color:black">
+            <td>DarkGray
+            </td></tr>
+            <tr style="background:gray;color:black">
+            <td>Gray
+            </td></tr>
+            <tr style="background:dimgray;color:white">
+            <td>DimGray
+            </td></tr>
+            <tr style="background:lightslategray;color:white">
+            <td>LightSlateGray
+            </td></tr>
+            <tr style="background:slategray;color:white">
+            <td>SlateGray
+            </td></tr>
+            <tr style="background:darkslategray;color:white">
+            <td>DarkSlateGray
+            </td></tr>
+            <tr style="background:black;color:white">
+            <td>Black
+            </td></tr></tbody></table>
+            </td></tr></tbody></table>
+
+        <p style="font-size: 30px">examples:</p>
+        <figure>
+            <img src="../Functions/pic_Functions/Color/Color_1.jpg" width="140" height="140" title="color(c = 'red', alpha = 1) (cube(size = 5))">
+            <p><strong>color(c = 'red', alpha = 1) (cube(size = 5))</strong></p>
+        </figure>
+        <figure>
+            <img src="../Functions/pic_Functions/Color/Color_2.jpg" width="140" height="140" title="color(c = 'DarkViolet', alpha = 0.5) (cube(size = 5))">
+            <p><strong>color(c = 'DarkViolet', alpha = 0.5) (cube(size = 5))</strong></p>
+        </figure>
+        <figure>
+            <img src="../Functions/pic_Functions/Color/Color_3.jpg" width="140" height="140" title="color(c = '#16bb8a', alpha = 0.1) (sphere(r = 5))">
+            <p><strong>color(c = '#16bb8a', alpha = 0.1) (sphere(r = 5))</strong></p>
+        </figure>
+    </body>
+</html>
